@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T08:15:36.128Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="a3sf4oOuZLDScLzbe6Qm" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T08:16:03.735Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="zcY5sHtzLdlplzSugpAK" version="15.9.1" type="github">
   <diagram id="Zg7ktQxFH2tfBIdX8OJX" name="Page-1">
     <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             <mxPoint x="-64" y="-79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-25" value="mobilenet_v2 with scale" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/nnUyi/MobileNet_V2/master/figure/bottleneck_residual_block.png;imageBorder=#F19C99;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+        <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-25" value="mobilenet_v2 with scale" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/nnUyi/MobileNet_V2/master/figure/bottleneck_residual_block.png;imageBorder=#F19C99;fontStyle=1;fontColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="560" y="300" width="123.08" height="115" as="geometry" />
         </mxCell>
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontColor=#4D4D4D;rotation=-181;" vertex="1" parent="1">
@@ -128,7 +128,7 @@
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-38" value="top1=71.096、top5=89.892" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="840" y="297.5" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-39" value="top1=63.462、top5=84.932" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4D4D4D;" vertex="1" parent="1">
+        <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-39" value="top1=&lt;font color=&quot;#ea6b66&quot;&gt;63.462&lt;/font&gt;、top5=84.932" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="840" y="377.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-40" value="top1=71.878、top5=90.286" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4D4D4D;" vertex="1" parent="1">
