@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T06:23:15.774Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="HgYvwwB3Me__GTpYtknn" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T06:31:59.084Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="V_FvOkHXTUApXwCoplyI" version="15.9.1" type="github">
   <diagram id="Zg7ktQxFH2tfBIdX8OJX" name="Page-1">
     <mxGraphModel dx="2500" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -310,8 +310,11 @@
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-84" value="top1=76.130、top5=92.862" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4D4D4D;" parent="1" vertex="1">
           <mxGeometry x="840" y="1260" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Z12Myasu1i3hmAQaFp3M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N1ahAjAl8G-8Hh2oC9Ne-85" target="Z12Myasu1i3hmAQaFp3M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-85" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;dashed=1;fontSize=12;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="1110" width="20" height="180" as="geometry" />
+          <mxGeometry x="1080" y="950.01" width="20" height="180" as="geometry" />
         </mxCell>
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-86" value="290" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="660" y="1200" width="40" height="20" as="geometry" />
@@ -369,6 +372,24 @@
         </mxCell>
         <mxCell id="N1ahAjAl8G-8Hh2oC9Ne-99" value="resnet50 with scale" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;fontSize=12;fontColor=#EA6B66;strokeColor=default;image=https://ewr1.vultrobjects.com/imgur2/000/006/884/570_954_de7.png;imageBorder=#FF6666;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="561.8000000000001" y="987.28" width="119.48" height="105.45" as="geometry" />
+        </mxCell>
+        <mxCell id="Z12Myasu1i3hmAQaFp3M-1" value="&lt;font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 12px&quot;&gt;现象：&lt;br&gt;cpu模拟量化，cnml量化，cnnl量化，该3种模式使用相同的权重和量化参数，得到精度数据相当，并未出现较大的差距。&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 12px&quot;&gt;总结：&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;说明cnnl离线量化算子在适配流程上是正确的&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="960.01" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z12Myasu1i3hmAQaFp3M-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N1ahAjAl8G-8Hh2oC9Ne-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="740" as="sourcePoint" />
+            <mxPoint x="1240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z12Myasu1i3hmAQaFp3M-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N1ahAjAl8G-8Hh2oC9Ne-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="910" as="sourcePoint" />
+            <mxPoint x="1240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z12Myasu1i3hmAQaFp3M-6" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff6666&quot;&gt;CNNL离线量化算子conv2d/linear精度小于cnml&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="680" width="480" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
