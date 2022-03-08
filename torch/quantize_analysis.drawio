@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T08:53:40.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="U3Lsnvrscu_8-QYZY_H4" version="16.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-08T08:54:06.267Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="YllGYkz2Iyu01B8FMyqN" version="16.6.2" type="github" pages="2">
   <diagram id="Zg7ktQxFH2tfBIdX8OJX" name="Page-1">
     <mxGraphModel dx="2249" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -434,7 +434,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kP159pGGDlq7-BzEpeTL-80" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;fontSize=12;fontColor=#EA6B66;strokeColor=default;image=https://ewr1.vultrobjects.com/imgur2/000/006/884/570_954_de7.png;imageBorder=#FF6666;" vertex="1" parent="Yh62RPENRG4oAyVA2KK9-1">
+        <mxCell id="kP159pGGDlq7-BzEpeTL-80" value="resnet50" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;fontSize=12;fontColor=#000000;strokeColor=default;image=https://ewr1.vultrobjects.com/imgur2/000/006/884/570_954_de7.png;imageBorder=#FF6666;" vertex="1" parent="Yh62RPENRG4oAyVA2KK9-1">
           <mxGeometry x="201.54" y="940" width="120" height="105.91" as="geometry" />
         </mxCell>
         <mxCell id="kP159pGGDlq7-BzEpeTL-88" value="" style="group" vertex="1" connectable="0" parent="Yh62RPENRG4oAyVA2KK9-1">
