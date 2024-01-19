@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T05:23:08.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.21" etag="pv1qgRAIM2IlOnrVCBtS" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T05:38:59.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ubV_TOVR1aSRl3VcAzxr" version="22.1.21" type="github">
   <diagram name="第 1 页" id="zV3mKHH8dpu4-d2iBxgd">
-    <mxGraphModel>
+    <mxGraphModel dx="1979" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="340" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry y="260" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-1" value="iGPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-2" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-3" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-4" value="iGPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-5" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-6" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JKjWgo1frOEFEz3HGC9Y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="550" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JKjWgo1frOEFEz3HGC9Y-2" target="JKjWgo1frOEFEz3HGC9Y-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="530" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5" y="320" as="sourcePoint" />
+            <mxPoint x="519.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-15" value="sycl::device" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="365" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-16" value="sycl::platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="285" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;glass=0;shadow=0;dashed=1;dashPattern=1 2;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;shadow=0;strokeColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-23" value="OpenCL" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;size=50;position=0.5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JKjWgo1frOEFEz3HGC9Y-24" value="Level Zero" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
