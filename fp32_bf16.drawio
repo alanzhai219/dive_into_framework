@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T09:23:19.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ATPEhPpqT0CSculMtYkW" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T09:24:44.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="qxKGeP1SFY6bd3k__mCe" version="24.2.8" type="github">
   <diagram name="fp32_to_bf16" id="Sul3tgi23-4hBaaTVPRD">
     <mxGraphModel dx="1979" dy="2312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="40" y="40" width="520" height="80" as="geometry" />
         </mxCell>
         <mxCell id="giRWG1l8mMdVmEsv11Fo-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;check Nan before converting to bf16&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="giRWG1l8mMdVmEsv11Fo-18">
-          <mxGeometry x="40" y="10" width="240" height="30" as="geometry" />
+          <mxGeometry x="40" y="10" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giRWG1l8mMdVmEsv11Fo-22" value="" style="group;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="640" width="600" height="160" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry x="681" y="210" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giRWG1l8mMdVmEsv11Fo-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;y = (vec_int32 + rounding_bias) &amp;gt;&amp;gt; 16&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="681" y="450" width="239" height="30" as="geometry" />
+          <mxGeometry x="681" y="450" width="249" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
