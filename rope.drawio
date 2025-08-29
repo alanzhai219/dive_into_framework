@@ -197,6 +197,9 @@
         <mxCell id="qGtFLWOhyWthNY1XGs8n-42" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1050/1*_KwP3njXi7GpCIzzQcRSBg.png;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="370" height="106.42" as="geometry" />
         </mxCell>
+        <mxCell id="qGtFLWOhyWthNY1XGs8n-43" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1011/1*qViXkA-tCeNjteg69qVlYQ.png;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="970" width="252.75" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
