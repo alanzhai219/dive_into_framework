@@ -194,6 +194,9 @@
         <mxCell id="qGtFLWOhyWthNY1XGs8n-41" value="rope cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-230" y="650" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="qGtFLWOhyWthNY1XGs8n-42" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1050/1*_KwP3njXi7GpCIzzQcRSBg.png;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="370" height="106.42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
